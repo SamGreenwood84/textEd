@@ -10,6 +10,9 @@ app.use(express.static(path.join(__dirname, 'client', 'dist')));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-require('./routes/htmlRoutes')(app);
+// Route for serving the index.html file
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
+});
 
 app.listen(PORT, () => console.log(`Now listening on port: ${PORT}`));

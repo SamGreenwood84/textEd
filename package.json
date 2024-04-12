@@ -4,12 +4,13 @@
   "description": "Text Editor App",
   "main": "server.js",
   "scripts": {
-    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run start\"",
-    "start": "npm run build && npm run server",
-    "server": "cd server && npm run start",
+    "start:dev": "cd client && npm run build && cd ../server && npm run server",
+    "start": "npm run start:dev",
+    "server": "cd server && npm run server",
     "build": "cd client && npm run build",
     "install-all": "npm install && cd client && npm install && cd server && npm install",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "deploy": "npm run build && npm start"
   },
   "keywords": [
     "text editor",
@@ -19,13 +20,11 @@
   ],
   "author": "SamGreenwood84",
   "license": "ISC",
-  "private": true,
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^8.2.0",
     "nodemon": "^3.0.0"
   }
 }
