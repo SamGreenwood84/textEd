@@ -4,15 +4,15 @@
   "description": "Cached text editor",
   "main": "server.js",
   "scripts": {
-    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
-    "start": "npm run build && cd server && node server.js",
-    "server": "cd server && nodemon server.js --ignore client",
-    "build": "cd client && npm run build",
-    "install": "npm i && cd client && npm i && cd ../server && npm i",
-    "client": "cd client && npm start"
+    "start": "node server.js",
+    "server": "nodemon server.js --ignore client",
+    "install-all": "npm i && cd client && npm i && cd ../server && npm i"
   },
   "keywords": [
-    "text editor, precache, indexDb, jate"
+    "text editor",
+    "precache",
+    "indexDb",
+    "jate"
   ],
   "author": "SamGreenwood84",
   "license": "ISC",
