@@ -15,7 +15,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html', // Corrected path to index.html
+      template: './client/index.html',
       title: 'J.A.T.E.',
     }),
     new WebpackPwaManifest({
@@ -38,7 +38,7 @@ module.exports = {
       ],
     }),
     new InjectManifest({
-      swSrc: './src/js/src-sw.js', 
+      swSrc: './src-sw.js', // Adjusted path to the service worker file
       swDest: 'src-sw.js',
     }),
   ],
