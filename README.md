@@ -3,7 +3,7 @@
 # Description
 Progressive Web Applications (PWA) Challenge: Text Editor
 
-- [Live Demo](#live-demo)
+- [Mock-Ups](#mock-ups)
 - [Getting Started](#getting-started)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -12,8 +12,12 @@ Progressive Web Applications (PWA) Challenge: Text Editor
 - [Deployment](#deployment)
 - [License](#license)
 
-# Live Demo
-Link from Render Deployment
+# Mock Ups
+
+Image of npm start functionality in the CLI
+![alt text](client/src/images/npmrunstart.png)
+
+
 
 # Getting Started
 
