@@ -23,9 +23,9 @@ butInstall.addEventListener('click', async () => {
   const choiceResult = await deferredPrompt.userChoice;
   // Log the user's choice
   if (choiceResult.outcome === 'accepted') {
-    console.log('User accepted the A2HS prompt');
+    console.log('User accepted');
   } else {
-    console.log('User dismissed the A2HS prompt');
+    console.log('User dismissed');
   }
   // Clear the deferredPrompt variable
   deferredPrompt = null;
