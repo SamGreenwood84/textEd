@@ -1,12 +1,13 @@
 {
   "name": "jate",
   "version": "1.0.0",
-  "description": "Cached text editor",
+  "description": "Text Editor App",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js --ignore client",
-    "install-all": "npm i && cd client && npm i && cd ../server && npm i"
+    "install-all": "npm i && cd client && npm i && cd ../server && npm i",
+    "deploy": "render deploy"
   },
   "keywords": [
     "text editor",
