@@ -1,18 +1,21 @@
 {
   "name": "jate",
   "version": "1.0.0",
-  "description": "cached text editor",
+  "description": "Cached text editor",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
-    "start": "npm run build && cd server && npm run server",
+    "start": "npm run build && npm run server",
     "server": "cd server && npm run server",
     "build": "cd client && npm run build",
-    "install-all": "concurrently \"npm i\" \"cd client && npm i\" \"cd server && npm i\"",
+    "install-all": "concurrently \"npm install\" \"cd client && npm install\" \"cd server && npm install\"",
     "client": "cd client && npm start"
   },
   "keywords": [
-    "text editor, precache, indexDb, jate"
+    "text editor",
+    "precache",
+    "indexDb",
+    "jate"
   ],
   "author": "SamGreenwood84",
   "license": "ISC",
@@ -22,6 +25,6 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.0",
-    "nodemon": "^3.0"
+    "nodemon": "^3.0.0"
   }
 }
