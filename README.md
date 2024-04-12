@@ -17,7 +17,8 @@ Progressive Web Applications (PWA) Challenge: Text Editor
 Image of npm start functionality in the CLI
 ![alt text](client/src/images/npmrunstart.png)
 
-
+Image of Successful Render Build
+![alt text](client/src/images/renderbuild.png)
 
 # Getting Started
 

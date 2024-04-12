@@ -4,7 +4,6 @@
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "start": "webpack serve --mode production",
-    "deploy": "render deploy",
     "postinstall": "npm run build"
   },
   "author": "2U",
