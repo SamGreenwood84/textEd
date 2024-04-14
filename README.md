@@ -3,27 +3,19 @@
 # Description
 Progressive Web Applications (PWA) Challenge: Text Editor
 
-- [Mock-Ups](#mock-ups)
 - [Getting Started](#getting-started)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
+- [Demo](#Demo)
 - [Built-With](#built-with)
 - [Collaboration](#collaboration)
 - [Deployment](#deployment)
 - [License](#license)
 
-# Mock Ups
-
-Image of npm start functionality in the CLI
-![alt text](client/src/images/npmrunstart.png)
-
-Image of Successful Render Build
-![alt text](client/src/images/renderbuild.png)
-
 # Getting Started
 
 1. Clone GitHub Repository
-2. npm install + various NPM Packages listed in Built-With
+2. npm run install 
 3. npm run start
 
 # User Story
@@ -42,9 +34,13 @@ WHEN I open my application in my editor
 
 THEN I should see a client server folder structure
 
+![alt text](client/src/images/clientfiles.png)
+
 WHEN I run npm run start from the root directory
 
 THEN I find that my application should start up the backend and serve the client
+
+![alt text](client/src/images/npmrunstart.png)
 
 WHEN I run the text editor application from my terminal
 
@@ -54,9 +50,13 @@ WHEN I run my webpack plugins
 
 THEN I find that I have a generated HTML file, service worker, and a manifest file
 
+![alt text](client/src/images/distfolder.png)
+
 WHEN I use next-gen JavaScript in my application
 
 THEN I find that the text editor still functions in the browser without errors
+
+![alt text](client/src/images/browserJATE.png)
 
 WHEN I open the text editor
 
@@ -82,9 +82,17 @@ WHEN I register a service worker
 
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 
+# Demo
+
+<video controls src="client/src/images/JATEDEMO.mp4" title="Title"></video>
+
 WHEN I deploy to Render
 
 THEN I should have proper build scripts for a webpack application
+
+![alt text](client/src/images/renderbuild.png)
+
+![alt text](client/src/images/renderdeploy.png)
 
 # Built-With
 
