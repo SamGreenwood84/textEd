@@ -116,6 +116,8 @@ THEN I should have proper build scripts for a webpack application
 
 -Help from Ask BCS Learning Assistant-ask-306835 (japb1998) with dependancy fix!
 
+-Help debugging from classmate Samantha Allen over slack <3
+
 This is NOT an open source project
 
 # Deployment
