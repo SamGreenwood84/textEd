@@ -19,11 +19,15 @@ module.exports = () => {
         template: './index.html',
         title: 'J.A.T.E.',
       }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
+      }),
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
         name: 'Just Another Text Editor',
-        short_name: 'J.A.T.E.',
+        short_name: 'jate',
         description: 'Edit your text files with ease!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
@@ -38,12 +42,7 @@ module.exports = () => {
           },
         ],
       }),
-      new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js',
-      }),
     ],
-
     module: {
       rules: [
         {
