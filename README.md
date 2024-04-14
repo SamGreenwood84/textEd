@@ -119,9 +119,9 @@ THEN I should have proper build scripts for a webpack application
 This is NOT an open source project
 
 # Deployment
-Render Deploymnet Link: Click Here!
+Render Deploymnet Link: [Click Here!](https://texted1.onrender.com/)
 
-GitHub Repo Link: Click Here!
+GitHub Repo Link: [Click Here!](https://github.com/SamGreenwood84/textEd1.git)
 
 # License
 MIT License
